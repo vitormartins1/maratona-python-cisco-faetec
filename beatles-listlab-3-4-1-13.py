@@ -9,13 +9,18 @@ beatles.append("George Harrison")
 print("Step 2:", beatles)
 
 # step 3
-beatles.append("Stu Sutcliffe")
-beatles.append("Pete Best")
+name = ""
+for i in range(2):
+    name = input("Add new beatles member: ")
+    beatles.append(name)
+# beatles.append("Stu Sutcliffe")
+# beatles.append("Pete Best")
 print("Step 3:", beatles)
 
 # step 4
-del beatles[3]
-del beatles[3]
+del beatles[3:5]
+# del beatles[-1]
+# del beatles[-1]
 print("Step 4:", beatles)
 
 # step 5
